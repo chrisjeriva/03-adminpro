@@ -4,7 +4,6 @@ import { Router } from '@angular/router';
 import Swal from 'sweetalert2';
 
 import { UsuarioService } from 'src/app/services/usuario.service';
-import { ThemeService } from 'ng2-charts';
 
 declare const gapi: any;
 

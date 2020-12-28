@@ -7,8 +7,10 @@ import { Grafica1Component } from './grafica1/grafica1.component';
 import { AccountSettingsComponent } from './accountsettings/accountsettings.component';
 import { PromesasComponent } from './promesas/promesas.component';
 import { RxjsComponent } from './rxjs/rxjs.component';
+import { ProfileComponent } from './profile/profile.component';
 
 import { AuthGuard } from '../guards/auth.guard';
+
 
 const routes: Routes = [
     { path: 'dashboard',
@@ -20,7 +22,8 @@ const routes: Routes = [
       {path: 'chart', component: Grafica1Component, data: {Title: 'Gráficas'}},
       {path: 'account-settings', component: AccountSettingsComponent, data: {Title: 'Ajustes de cuenta'}},
       {path: 'promesas', component: PromesasComponent, data: {Title: 'Promesas'}},
-      {path: 'rxjs', component: RxjsComponent, data: {Title: 'RxJs'}}
+      {path: 'rxjs', component: RxjsComponent, data: {Title: 'RxJs'}},
+      {path: 'perfil', component: ProfileComponent, data: {Title: 'Perfil de usuario'}}
     ]
   },
 ];
